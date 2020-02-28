@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.2rem;
+  color:  #66BFBF;
+  line-height: 4;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:  #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #66BFBF;
+}
+
+hr {
+  border-top-color: grey;
+  border-top-style : dotted;
+  width: 5%;
+  border-top-width: 5px;
+  border-bottom-style: none;
+  position: relative;
+
+
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:  10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+
+.profilePic {
+  height: 200px;
+  width: 200px;
+}
+
+.topContainer {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.skills {
+  padding-bottom: 100px;
+
+}
+.middle-container {
+padding-top: 100px;
+  text-align: center;
+
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+p {
+  font-family: Merriweather, sans-serif;
+}
+
+.link-width {
+  width: 100%;
+}
+
+
+.topCloud {
+  position: absolute;
+  right: 10%;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  bottom: 50%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmerTitle {
+  font-weight: normal;
+}
+
+
+.skill-row {
+  width: 30%;
+margin: 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.introText {
+  width: 30%;
+margin: 50px auto;
+text-align: center;
+line-height: 2;
+color: #40514E;
+}
+
+.computerIcon {
+  height :200px ;
+  width : 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.drivingIcon {
+  height :200px ;
+  width : 200px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-message {
+width : 40%;
+margin : 40px auto 40px;
+
+}
+
+
+.btn {
+	box-shadow:  10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin-bottom: 40px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+color: #EAF6F6;
+font-family: 'Montserrat', sans-serif;
+font: 0.75rem;
+padding: 40px 0;
+}
